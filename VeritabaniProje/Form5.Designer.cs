@@ -36,13 +36,13 @@
             label6 = new Label();
             textBox1 = new TextBox();
             textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            richTextBox1 = new RichTextBox();
-            textBox5 = new TextBox();
-            textBox6 = new TextBox();
             label7 = new Label();
             button1 = new Button();
+            comboBox1 = new ComboBox();
+            dateTimePicker1 = new DateTimePicker();
+            dateTimePicker2 = new DateTimePicker();
+            dateTimePicker3 = new DateTimePicker();
+            textBox3 = new TextBox();
             SuspendLayout();
             // 
             // label1
@@ -101,53 +101,17 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(300, 73);
+            textBox1.Location = new Point(304, 73);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(100, 23);
             textBox1.TabIndex = 6;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(565, 78);
+            textBox2.Location = new Point(577, 73);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(100, 23);
             textBox2.TabIndex = 7;
-            // 
-            // textBox3
-            // 
-            textBox3.Location = new Point(300, 200);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(100, 23);
-            textBox3.TabIndex = 8;
-            // 
-            // textBox4
-            // 
-            textBox4.Location = new Point(304, 273);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(100, 23);
-            textBox4.TabIndex = 9;
-            // 
-            // richTextBox1
-            // 
-            richTextBox1.Location = new Point(300, 124);
-            richTextBox1.Name = "richTextBox1";
-            richTextBox1.Size = new Size(382, 40);
-            richTextBox1.TabIndex = 10;
-            richTextBox1.Text = "";
-            // 
-            // textBox5
-            // 
-            textBox5.Location = new Point(577, 273);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(100, 23);
-            textBox5.TabIndex = 11;
-            // 
-            // textBox6
-            // 
-            textBox6.Location = new Point(304, 343);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(100, 23);
-            textBox6.TabIndex = 12;
             // 
             // label7
             // 
@@ -166,19 +130,61 @@
             button1.TabIndex = 14;
             button1.Text = "Kaydet";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(304, 343);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(121, 23);
+            comboBox1.TabIndex = 15;
+            // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Format = DateTimePickerFormat.Short;
+            dateTimePicker1.Location = new Point(304, 197);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(100, 23);
+            dateTimePicker1.TabIndex = 16;
+            // 
+            // dateTimePicker2
+            // 
+            dateTimePicker2.Format = DateTimePickerFormat.Time;
+            dateTimePicker2.Location = new Point(304, 276);
+            dateTimePicker2.Name = "dateTimePicker2";
+            dateTimePicker2.ShowUpDown = true;
+            dateTimePicker2.Size = new Size(100, 23);
+            dateTimePicker2.TabIndex = 17;
+            // 
+            // dateTimePicker3
+            // 
+            dateTimePicker3.Format = DateTimePickerFormat.Time;
+            dateTimePicker3.Location = new Point(577, 276);
+            dateTimePicker3.Name = "dateTimePicker3";
+            dateTimePicker3.ShowUpDown = true;
+            dateTimePicker3.Size = new Size(88, 23);
+            dateTimePicker3.TabIndex = 18;
+            // 
+            // textBox3
+            // 
+            textBox3.Location = new Point(304, 133);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(100, 23);
+            textBox3.TabIndex = 19;
             // 
             // Form5
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(textBox3);
+            Controls.Add(dateTimePicker3);
+            Controls.Add(dateTimePicker2);
+            Controls.Add(dateTimePicker1);
+            Controls.Add(comboBox1);
             Controls.Add(button1);
             Controls.Add(label7);
-            Controls.Add(textBox6);
-            Controls.Add(textBox5);
-            Controls.Add(richTextBox1);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Controls.Add(label6);
@@ -203,12 +209,12 @@
         private Label label6;
         private TextBox textBox1;
         private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private RichTextBox richTextBox1;
-        private TextBox textBox5;
-        private TextBox textBox6;
         private Label label7;
         private Button button1;
+        private ComboBox comboBox1;
+        private DateTimePicker dateTimePicker1;
+        private DateTimePicker dateTimePicker2;
+        private DateTimePicker dateTimePicker3;
+        private TextBox textBox3;
     }
 }
