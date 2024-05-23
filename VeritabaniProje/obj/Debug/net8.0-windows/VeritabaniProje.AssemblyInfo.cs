@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VeritabaniProje")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30a2aadf4cfbef8dc24a039a7f45e93575cb0f87")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76df535469f4da8d648540fe078e8f0fdbffc18a")]
 [assembly: System.Reflection.AssemblyProductAttribute("VeritabaniProje")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VeritabaniProje")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
