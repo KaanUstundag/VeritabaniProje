@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("13b01bca-ce1c-47ee-8b9b-b105ba65688e")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("VeritabaniProje")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+351eb8c44ad9e385eddf79afb4ec746adf4e45d7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30a2aadf4cfbef8dc24a039a7f45e93575cb0f87")]
 [assembly: System.Reflection.AssemblyProductAttribute("VeritabaniProje")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VeritabaniProje")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

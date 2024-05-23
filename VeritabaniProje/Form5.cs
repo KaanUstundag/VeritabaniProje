@@ -22,11 +22,11 @@ namespace VeritabaniProje
         {
             string musteriAdi = textBox1.Text;
             string musteriSoyadi = textBox2.Text;
-            string gorusmeKonusu = textBox3.Text;
+            string gorusmeKonusu = comboBox1.Text;
             string gorusmeTarihi = dateTimePicker1.Value.ToString("yyyy-MM-dd");
             string gorusmeBasSaati = dateTimePicker2.Value.ToString("HH:mm:ss");
             string gorusmeBitSaati = dateTimePicker3.Value.ToString("HH:mm:ss");
-            string gorusmeDurumu = comboBox1.Text;
+            string gorusmeDurumu = comboBox2.Text;
 
             SqlConnection baglanti = new SqlConnection("Data Source=MSINOTEBOOK;Initial Catalog=VeritabaniProje;Integrated Security=True");
             SqlCommand komut = new SqlCommand("insert into gorusme(MusteriAdi,MusteriSoyadi,GorusmeKonusu,GorusmeTarihi,gorusmeBaslangicSaati,gorusmeBitisSaati,GorusmeDurumu) values('" + musteriAdi + "','" + musteriSoyadi + "','" + gorusmeKonusu + "','" + gorusmeTarihi + "','" + gorusmeBasSaati + "','" + gorusmeBitSaati + "','" + gorusmeDurumu + "')", baglanti);

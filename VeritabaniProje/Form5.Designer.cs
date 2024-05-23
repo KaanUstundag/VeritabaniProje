@@ -42,7 +42,7 @@
             dateTimePicker1 = new DateTimePicker();
             dateTimePicker2 = new DateTimePicker();
             dateTimePicker3 = new DateTimePicker();
-            textBox3 = new TextBox();
+            comboBox2 = new ComboBox();
             SuspendLayout();
             // 
             // label1
@@ -135,7 +135,8 @@
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(304, 343);
+            comboBox1.Items.AddRange(new object[] { "Arıza", "Talep" });
+            comboBox1.Location = new Point(304, 124);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(121, 23);
             comboBox1.TabIndex = 15;
@@ -166,19 +167,21 @@
             dateTimePicker3.Size = new Size(88, 23);
             dateTimePicker3.TabIndex = 18;
             // 
-            // textBox3
+            // comboBox2
             // 
-            textBox3.Location = new Point(304, 133);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(100, 23);
-            textBox3.TabIndex = 19;
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Items.AddRange(new object[] { "Tamamlandı", "Takip ediliyor", "Sorun çözülemedi", "" });
+            comboBox2.Location = new Point(304, 346);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(121, 23);
+            comboBox2.TabIndex = 19;
             // 
             // Form5
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(textBox3);
+            Controls.Add(comboBox2);
             Controls.Add(dateTimePicker3);
             Controls.Add(dateTimePicker2);
             Controls.Add(dateTimePicker1);
@@ -215,6 +218,6 @@
         private DateTimePicker dateTimePicker1;
         private DateTimePicker dateTimePicker2;
         private DateTimePicker dateTimePicker3;
-        private TextBox textBox3;
+        private ComboBox comboBox2;
     }
 }
