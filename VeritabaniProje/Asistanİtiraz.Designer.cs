@@ -1,6 +1,6 @@
 ﻿namespace VeritabaniProje
 {
-    partial class Form6
+    partial class Asistanİtiraz
     {
         /// <summary>
         /// Required designer variable.
@@ -28,44 +28,49 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Asistanİtiraz));
+            pictureBox1 = new PictureBox();
             dataGridView1 = new DataGridView();
-            button1 = new Button();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(-1, -2);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(1920, 1080);
+            pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
             // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(12, 12);
+            dataGridView1.Location = new Point(207, 118);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(776, 379);
-            dataGridView1.TabIndex = 0;
+            dataGridView1.Size = new Size(623, 436);
+            dataGridView1.TabIndex = 2;
             // 
-            // button1
-            // 
-            button1.Location = new Point(610, 407);
-            button1.Name = "button1";
-            button1.Size = new Size(157, 23);
-            button1.TabIndex = 1;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // Form6
+            // Asistanİtiraz
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(button1);
+            ClientSize = new Size(1000, 811);
             Controls.Add(dataGridView1);
-            Name = "Form6";
+            Controls.Add(pictureBox1);
+            Name = "Asistanİtiraz";
             Text = "Form6";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
+        private PictureBox pictureBox1;
         private DataGridView dataGridView1;
-        private Button button1;
     }
 }

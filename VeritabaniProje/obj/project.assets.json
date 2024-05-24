@@ -1074,19 +1074,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ustun\\.nuget\\packages\\": {}
+    "C:\\Users\\EREN\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ustun\\Documents\\GitHub\\VeritabaniProje\\VeritabaniProje\\VeritabaniProje.csproj",
+      "projectUniqueName": "C:\\Users\\EREN\\Documents\\GitHub\\VeritabaniProje\\VeritabaniProje\\VeritabaniProje.csproj",
       "projectName": "VeritabaniProje",
-      "projectPath": "C:\\Users\\ustun\\Documents\\GitHub\\VeritabaniProje\\VeritabaniProje\\VeritabaniProje.csproj",
-      "packagesPath": "C:\\Users\\ustun\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ustun\\Documents\\GitHub\\VeritabaniProje\\VeritabaniProje\\obj\\",
+      "projectPath": "C:\\Users\\EREN\\Documents\\GitHub\\VeritabaniProje\\VeritabaniProje\\VeritabaniProje.csproj",
+      "packagesPath": "C:\\Users\\EREN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\EREN\\Documents\\GitHub\\VeritabaniProje\\VeritabaniProje\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ustun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\EREN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1145,7 +1150,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

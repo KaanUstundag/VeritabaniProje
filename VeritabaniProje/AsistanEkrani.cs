@@ -10,22 +10,34 @@ using System.Windows.Forms;
 
 namespace VeritabaniProje
 {
-    public partial class Form3 : Form
+    public partial class AsistanEkrani : Form
     {
-        public Form3()
+ 
+        public int AsistanId { get; set; }
+        public AsistanEkrani()
         {
             InitializeComponent();
         }
+
+        public AsistanEkrani(int asistanId )
+        {
+            InitializeComponent();
+            this.AsistanId = asistanId;
+        }
+
+
         private void button1_Click(object sender, EventArgs e)
         {
-            Form4 form4 = new Form4();
-            form4.Show();
+            Asistanİtiraz asistanİtiraz = new Asistanİtiraz(AsistanId);
+            asistanİtiraz.Show();
             this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            AsistanÇağrıListesi asistanÇağrıListesi = new AsistanÇağrıListesi(AsistanId);
+            asistanÇağrıListesi.Show();
+            this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
